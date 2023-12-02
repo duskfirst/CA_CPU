@@ -486,16 +486,17 @@
       <a name="value" val="0x4"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(370,110)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="south"/>
+      <a name="label" val="IsBranch"/>
+    </comp>
     <comp lib="0" loc="(370,480)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="PCout"/>
       <a name="output" val="true"/>
       <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(380,100)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="label" val="IsBranch"/>
     </comp>
     <comp lib="0" loc="(400,280)" name="Splitter">
       <a name="appear" val="right"/>
