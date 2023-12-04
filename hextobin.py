@@ -1,6 +1,8 @@
 opcode=['add','sub','mul','div','mod','cmp','and','or','not','mov','lsl','lsr','asr','nop','ld','st','beq','bgt','b','call','ret']
 movu=['','u','h']
 
+a = input('Enter string input of hex of rom: ')
+
 def fun(a):
 	a = a.split()
 	for i in a:
