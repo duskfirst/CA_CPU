@@ -1,0 +1,5 @@
+# CA_CPU
+This Is For CA Project
+CA Instructions
+mov r0, #3
+01001100000000000000000000000011
