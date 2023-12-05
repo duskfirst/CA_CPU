@@ -10,11 +10,12 @@ file1 = open(sys.argv[1])
 lines = file1.readlines()
 
 def fun(a):
+	inp=""
 	for i in lines:
 		line = i.split()
 		operand = opcode.index(line[0])
 		line.pop(0)
-		print(line, opcode[operand])
+		#print(line, opcode[operand])
 		
 # opcode[int('0b'+b[:5],2)]+movu[int('0b'+b[14:16],2)], int('0b'+b[5],2), 'r'+str(int('0b'+b[6:10],2)), 'r'+str(int('0b'+b[10:14],2)), int('0b'+b[16:],2)
 		if (opcode[operand] == 'ld' or opcode[operand] == 'st'):
@@ -55,6 +56,8 @@ def fun(a):
 				rs1 = int(line[1][1:4])
 				imm = int(line[2])
 				out = (operand << 27)+(1 << 26)+(rd << 22)+(rs1 << 18)+(imm)
-		print(hex(out)[2:])
+		# print(hex(out)[2:])
+		inp = str(hex(out)[2:])+" "
+	print(inp)
 fun(lines)
 input()
