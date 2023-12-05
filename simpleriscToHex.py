@@ -57,7 +57,7 @@ def fun(a):
 				imm = int(line[2])
 				out = (operand << 27)+(1 << 26)+(rd << 22)+(rs1 << 18)+(imm)
 		# print(hex(out)[2:])
-		inp = str(hex(out)[2:])+" "
+		inp += str(hex(out)[2:])+" "
 	print(inp)
 fun(lines)
 input()
