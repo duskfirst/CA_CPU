@@ -43,7 +43,7 @@ def fun(a):
 				out = (operand << 27)+(1 << 26)+(rd << 22)+(imm)
 			else:
 				rs1 = int(line[1][1:4])
-				out = (operand << 27)+(rd << 22)+(rs1 << 18)
+				out = (operand << 27)+(rd << 22)+(rs1 << 14)
 		else:
 			rd = int(line[0][1:4])
 			if (line[2][0] == 'r'):
