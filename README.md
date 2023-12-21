@@ -1,7 +1,8 @@
 # CA_CPU
 This Is For CA Project
-CA Instructions
+We have made the design for CPU for simpleRisc Instruction set.
 
+Additional programs.
 Here Simplerisctohex program converts simple risc instructions to hex string.
 
 Do Not Put Commas During The Instructions
